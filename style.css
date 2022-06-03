@@ -43,6 +43,10 @@ body{
     padding-bottom: 5px;
 }
 
+.rooms:focus,.night:focus{
+    outline: none;
+}
+
 .night-title{
     margin-top: 10px;
 }
