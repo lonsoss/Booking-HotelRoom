@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="hotel">
+        <div class="left-section">
+            <h2>Room</h2>
+            <form>
+                <select class="rooms" onchange="selectRoom()">
+                    <option value="1">Room 1</option>
+                    <option value="2">Room 2</option>
+                    <option value="3">Room 3</option>
+                    <option value="4">Room 4</option>
+                    <option value="5">Room 5</option>
+                </select>
+            </form>
+            <div>Price : <span class="price"></span></div>
+            <h2 class="night-title">Nights</h2>
+            <input type="number" min="1" class="night" value="1" onchange="selectNight()">
+            <div>Total : <span class="total"></span></div>
+        </div>
+
+        <div class="right-section">
+            <img src="img/room1.jpg" class="image">
+        </div>
+        
+    </div>
+    
+
+
+
+    
+<script src="script.js"></script>
+</body>
+</html>
